@@ -1,0 +1,63 @@
+Using fastq_screen v0.15.3
+Reading configuration from '../data/reference/fastq_screen.conf'
+Aligner (--aligner) not specified, but Bowtie2 path and index files found: mapping with Bowtie2
+Using '/home/akabetso/miniconda3/envs/myenv/bin/bowtie2' as Bowtie 2 path
+Adding database YB886
+Adding database SPP1
+Adding database E_coli
+Adding database PhiX
+Adding database Lambda
+Adding database BaS_rRNA
+Adding database Vectors
+Adding database Adapters
+Using 1 threads for searches
+Option --subset set to 100000 reads
+Processing Bacillus_infection_T0_R1.fq.gz
+Counting sequences in Bacillus_infection_T0_R1.fq.gz
+Making reduced sequence file with ratio 10:1
+Searching Bacillus_infection_T0_R1.fq.gz_temp_subset.fastq against YB886
+Searching Bacillus_infection_T0_R1.fq.gz_temp_subset.fastq against SPP1
+Searching Bacillus_infection_T0_R1.fq.gz_temp_subset.fastq against E_coli
+Searching Bacillus_infection_T0_R1.fq.gz_temp_subset.fastq against PhiX
+Searching Bacillus_infection_T0_R1.fq.gz_temp_subset.fastq against Lambda
+Searching Bacillus_infection_T0_R1.fq.gz_temp_subset.fastq against BaS_rRNA
+Searching Bacillus_infection_T0_R1.fq.gz_temp_subset.fastq against Vectors
+Searching Bacillus_infection_T0_R1.fq.gz_temp_subset.fastq against Adapters
+Perl module GD::Graph::bars not installed, skipping charts
+Processing Bacillus_infection_T10_R1.fq.gz
+Counting sequences in Bacillus_infection_T10_R1.fq.gz
+Making reduced sequence file with ratio 10:1
+Searching Bacillus_infection_T10_R1.fq.gz_temp_subset.fastq against YB886
+Searching Bacillus_infection_T10_R1.fq.gz_temp_subset.fastq against SPP1
+Searching Bacillus_infection_T10_R1.fq.gz_temp_subset.fastq against E_coli
+Searching Bacillus_infection_T10_R1.fq.gz_temp_subset.fastq against PhiX
+Searching Bacillus_infection_T10_R1.fq.gz_temp_subset.fastq against Lambda
+Searching Bacillus_infection_T10_R1.fq.gz_temp_subset.fastq against BaS_rRNA
+Searching Bacillus_infection_T10_R1.fq.gz_temp_subset.fastq against Vectors
+Searching Bacillus_infection_T10_R1.fq.gz_temp_subset.fastq against Adapters
+Perl module GD::Graph::bars not installed, skipping charts
+Processing Bacillus_infection_T10_R2.fq.gz
+Counting sequences in Bacillus_infection_T10_R2.fq.gz
+Making reduced sequence file with ratio 10:1
+Searching Bacillus_infection_T10_R2.fq.gz_temp_subset.fastq against YB886
+Searching Bacillus_infection_T10_R2.fq.gz_temp_subset.fastq against SPP1
+Searching Bacillus_infection_T10_R2.fq.gz_temp_subset.fastq against E_coli
+Searching Bacillus_infection_T10_R2.fq.gz_temp_subset.fastq against PhiX
+Searching Bacillus_infection_T10_R2.fq.gz_temp_subset.fastq against Lambda
+Searching Bacillus_infection_T10_R2.fq.gz_temp_subset.fastq against BaS_rRNA
+Searching Bacillus_infection_T10_R2.fq.gz_temp_subset.fastq against Vectors
+Searching Bacillus_infection_T10_R2.fq.gz_temp_subset.fastq against Adapters
+Perl module GD::Graph::bars not installed, skipping charts
+Processing Bacillus_infection_T0_R2.fq.gz
+Counting sequences in Bacillus_infection_T0_R2.fq.gz
+Making reduced sequence file with ratio 10:1
+Searching Bacillus_infection_T0_R2.fq.gz_temp_subset.fastq against YB886
+Searching Bacillus_infection_T0_R2.fq.gz_temp_subset.fastq against SPP1
+Searching Bacillus_infection_T0_R2.fq.gz_temp_subset.fastq against E_coli
+Searching Bacillus_infection_T0_R2.fq.gz_temp_subset.fastq against PhiX
+Searching Bacillus_infection_T0_R2.fq.gz_temp_subset.fastq against Lambda
+Searching Bacillus_infection_T0_R2.fq.gz_temp_subset.fastq against BaS_rRNA
+Searching Bacillus_infection_T0_R2.fq.gz_temp_subset.fastq against Vectors
+Searching Bacillus_infection_T0_R2.fq.gz_temp_subset.fastq against Adapters
+Perl module GD::Graph::bars not installed, skipping charts
+Processing complete
