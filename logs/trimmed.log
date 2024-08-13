@@ -1,7 +1,7 @@
 This is cutadapt 4.4 with Python 3.12.3
 Command line parameters: -u 8 -U 8 -q 33,33 --trim-n -m 20 -o ../results/cutadapt/Bacillus_infection_T0_R1_trimmed.fq.gz -p ../results/cutadapt/Bacillus_infection_T0_R2_trimmed.fq.gz ../data/fastq/Bacillus_infection_T0_R1.fq.gz ../data/fastq/Bacillus_infection_T0_R2.fq.gz
 Processing paired-end reads on 1 core ...
-Finished in 13.385 s (13.385 µs/read; 4.48 M reads/minute).
+Finished in 13.180 s (13.180 µs/read; 4.55 M reads/minute).
 
 === Summary ===
 
@@ -23,7 +23,7 @@ Total written (filtered):     62,029,414 bp (72.1%)
 This is cutadapt 4.4 with Python 3.12.3
 Command line parameters: -u 8 -U 8 -q 33,33 --trim-n -m 20 -o ../results/cutadapt/Bacillus_infection_T10_R1_trimmed.fq.gz -p ../results/cutadapt/Bacillus_infection_T10_R2_trimmed.fq.gz ../data/fastq/Bacillus_infection_T10_R1.fq.gz ../data/fastq/Bacillus_infection_T10_R2.fq.gz
 Processing paired-end reads on 1 core ...
-Finished in 13.757 s (13.757 µs/read; 4.36 M reads/minute).
+Finished in 12.891 s (12.891 µs/read; 4.65 M reads/minute).
 
 === Summary ===
 

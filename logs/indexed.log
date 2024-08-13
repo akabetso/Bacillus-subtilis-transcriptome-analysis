@@ -34,7 +34,7 @@ Building DifferenceCoverSample
   Building sPrime
   Building sPrimeOrder
   V-Sorting samples
-  V-Sorting samples time: 00:00:00
+  V-Sorting samples time: 00:00:01
   Allocating rank array
   Ranking v-sort output
   Ranking v-sort output time: 00:00:00
@@ -171,7 +171,7 @@ Getting block 6 of 7
   bucket 6: 100%
   Sorting block of length 687418 for bucket 6
   (Using difference cover)
-  Sorting block time: 00:00:01
+  Sorting block time: 00:00:00
 Returning block of 687419 for bucket 6
 Getting block 7 of 7
   Reserving size (749508) for bucket 7
