@@ -1,0 +1,44 @@
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -u 8 -U 8 -q 33,33 --trim-n -m 20 -o ../results/cutadapt/Bacillus_infection_T0_R1_trimmed.fq.gz -p ../results/cutadapt/Bacillus_infection_T0_R2_trimmed.fq.gz ../data/fastq/Bacillus_infection_T0_R1.fq.gz ../data/fastq/Bacillus_infection_T0_R2.fq.gz
+Processing paired-end reads on 1 core ...
+Finished in 13.385 s (13.385 µs/read; 4.48 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:          1,000,000
+
+== Read fate breakdown ==
+Pairs that were too short:             107,026 (10.7%)
+Pairs written (passing filters):       892,974 (89.3%)
+
+Total basepairs processed:    86,000,000 bp
+  Read 1:    51,000,000 bp
+  Read 2:    35,000,000 bp
+Quality-trimmed:               4,218,060 bp (4.9%)
+  Read 1:     2,125,647 bp
+  Read 2:     2,092,413 bp
+Total written (filtered):     62,029,414 bp (72.1%)
+  Read 1:    38,098,605 bp
+  Read 2:    23,930,809 bp
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -u 8 -U 8 -q 33,33 --trim-n -m 20 -o ../results/cutadapt/Bacillus_infection_T10_R1_trimmed.fq.gz -p ../results/cutadapt/Bacillus_infection_T10_R2_trimmed.fq.gz ../data/fastq/Bacillus_infection_T10_R1.fq.gz ../data/fastq/Bacillus_infection_T10_R2.fq.gz
+Processing paired-end reads on 1 core ...
+Finished in 13.757 s (13.757 µs/read; 4.36 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:          1,000,000
+
+== Read fate breakdown ==
+Pairs that were too short:             130,633 (13.1%)
+Pairs written (passing filters):       869,367 (86.9%)
+
+Total basepairs processed:    86,000,000 bp
+  Read 1:    51,000,000 bp
+  Read 2:    35,000,000 bp
+Quality-trimmed:               5,228,626 bp (6.1%)
+  Read 1:     2,737,763 bp
+  Read 2:     2,490,863 bp
+Total written (filtered):     60,294,707 bp (70.1%)
+  Read 1:    37,027,905 bp
+  Read 2:    23,266,802 bp
