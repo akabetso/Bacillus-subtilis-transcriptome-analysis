@@ -1,0 +1,329 @@
+>Feature Bacteriophage_SPP1
+9	422	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00001
+			product	hypothetical protein
+457	1575	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00002
+			product	hypothetical protein
+1566	1781	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00003
+			product	hypothetical protein
+1781	2038	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00004
+			product	hypothetical protein
+2063	2332	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00005
+			product	hypothetical protein
+2334	3845	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00006
+			product	hypothetical protein
+3802	4728	CDS
+			EC_number	2.4.2.31
+			db_xref	COG:COG5585
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q838U8
+			locus_tag	HNOGEJBB_00007
+			product	NAD(+)--arginine ADP-ribosyltransferase EFV
+5064	6212	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00008
+			product	hypothetical protein
+6214	6552	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00009
+			product	hypothetical protein
+6580	6747	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00010
+			product	hypothetical protein
+6914	7558	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00011
+			product	hypothetical protein
+7573	7767	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00012
+			product	hypothetical protein
+7800	8774	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00013
+			product	hypothetical protein
+8825	9001	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00014
+			product	hypothetical protein
+9012	9320	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00015
+			product	hypothetical protein
+9322	9651	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00016
+			product	hypothetical protein
+9641	10066	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00017
+			product	hypothetical protein
+10063	10467	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00018
+			product	hypothetical protein
+10481	11014	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00019
+			product	hypothetical protein
+11360	11881	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00020
+			product	hypothetical protein
+11944	12252	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00021
+			product	hypothetical protein
+12264	15362	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00022
+			product	hypothetical protein
+15359	16120	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00023
+			product	hypothetical protein
+16134	19460	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00024
+			product	hypothetical protein
+19473	19913	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00025
+			product	hypothetical protein
+19929	20093	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00026
+			product	hypothetical protein
+20086	20241	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00027
+			product	hypothetical protein
+20234	20464	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00028
+			product	hypothetical protein
+20544	20822	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00029
+			product	hypothetical protein
+20842	21657	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00030
+			product	hypothetical protein
+21659	21907	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00031
+			product	hypothetical protein
+22006	22149	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00032
+			product	hypothetical protein
+22274	22828	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00033
+			product	hypothetical protein
+22831	23118	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00034
+			product	hypothetical protein
+23066	23368	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00035
+			product	hypothetical protein
+23355	23672	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00036
+			product	hypothetical protein
+23672	23836	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00037
+			product	hypothetical protein
+23857	24027	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00038
+			product	hypothetical protein
+24207	24491	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00039
+			product	hypothetical protein
+24587	24949	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00040
+			product	hypothetical protein
+24962	25279	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00041
+			product	hypothetical protein
+25276	27786	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00042
+			product	hypothetical protein
+28037	28207	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00043
+			product	hypothetical protein
+28224	29993	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00044
+			product	hypothetical protein
+30009	30227	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00045
+			product	hypothetical protein
+30362	30520	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00046
+			product	hypothetical protein
+30532	31467	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00047
+			product	hypothetical protein
+31464	31637	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00048
+			product	hypothetical protein
+31639	31893	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00049
+			product	hypothetical protein
+31895	32185	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00050
+			product	hypothetical protein
+32175	33038	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00051
+			product	hypothetical protein
+33031	33510	CDS
+			db_xref	COG:COG0629
+			gene	ssbA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P37455
+			locus_tag	HNOGEJBB_00052
+			product	Single-stranded DNA-binding protein A
+33535	34026	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00053
+			product	hypothetical protein
+34030	34404	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00054
+			product	hypothetical protein
+34397	34990	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O31815
+			locus_tag	HNOGEJBB_00055
+			note	UPF0714 protein YndL
+			product	hypothetical protein
+34987	35241	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00056
+			product	hypothetical protein
+35398	35571	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00057
+			product	hypothetical protein
+35578	36348	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00058
+			product	hypothetical protein
+36345	36725	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00059
+			product	hypothetical protein
+36722	38050	CDS
+			EC_number	3.6.4.12
+			db_xref	COG:COG0305
+			gene	dnaC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P37469
+			locus_tag	HNOGEJBB_00060
+			product	Replicative DNA helicase
+38067	38567	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00061
+			product	hypothetical protein
+38564	38959	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00062
+			product	hypothetical protein
+38962	39132	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00063
+			product	hypothetical protein
+39129	39425	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00064
+			product	hypothetical protein
+39429	39782	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00065
+			product	hypothetical protein
+39775	40293	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00066
+			product	hypothetical protein
+40296	40484	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00067
+			product	hypothetical protein
+40593	40895	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00068
+			product	hypothetical protein
+40895	41206	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00069
+			product	hypothetical protein
+41210	41311	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00070
+			product	hypothetical protein
+41301	41660	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00071
+			product	hypothetical protein
+41717	42010	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00072
+			product	hypothetical protein
+42071	42244	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00073
+			product	hypothetical protein
+42241	42414	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00074
+			product	hypothetical protein
+42430	42612	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00075
+			product	hypothetical protein
+42609	42764	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00076
+			product	hypothetical protein
+43021	43176	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00077
+			product	hypothetical protein
+43173	43415	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00078
+			product	hypothetical protein
+43399	43605	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HNOGEJBB_00079
+			product	hypothetical protein

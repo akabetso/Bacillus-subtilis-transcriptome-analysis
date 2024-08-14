@@ -1,0 +1,128 @@
+[01:57:12] This is prokka 1.14.6
+[01:57:12] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[01:57:12] Homepage is https://github.com/tseemann/prokka
+[01:57:12] Local time is Wed Aug 14 01:57:12 2024
+[01:57:12] You are akabetso
+[01:57:12] Operating system is linux
+[01:57:12] You have BioPerl 1.7.8
+[01:57:12] System has 4 cores.
+[01:57:12] Option --cpu asked for 8 cores, but system only has 4
+[01:57:12] Will use maximum of 4 cores.
+[01:57:12] Annotating as >>> Bacteria <<<
+[01:57:12] Generating locus_tag from '../data/reference/SPP1.fa' contents.
+[01:57:12] Setting --locustag HNOGEJBB from MD5 1780e3bb36f1ef34264617f11b06e8eb
+[01:57:12] Re-using existing --outdir ../results/phage_annotation
+[01:57:12] Using filename prefix: SPP1.XXX
+[01:57:12] Setting HMMER_NCPU=1
+[01:57:12] Writing log to: ../results/phage_annotation/SPP1.log
+[01:57:12] Command: /home/akabetso/miniconda3/envs/myenv/bin/prokka --outdir ../results/phage_annotation --prefix SPP1 --force ../data/reference/SPP1.fa
+[01:57:12] Appending to PATH: /home/akabetso/miniconda3/envs/myenv/bin
+[01:57:12] Looking for 'aragorn' - found /home/akabetso/miniconda3/envs/myenv/bin/aragorn
+[01:57:12] Determined aragorn version is 001002 from 'ARAGORN v1.2.41 Dean Laslett'
+[01:57:12] Looking for 'barrnap' - found /home/akabetso/miniconda3/envs/myenv/bin/barrnap
+[01:57:12] Determined barrnap version is 000009 from 'barrnap 0.9'
+[01:57:12] Looking for 'blastp' - found /home/akabetso/miniconda3/envs/myenv/bin/blastp
+[01:57:12] Determined blastp version is 002016 from 'blastp: 2.16.0+'
+[01:57:12] Looking for 'cmpress' - found /home/akabetso/miniconda3/envs/myenv/bin/cmpress
+[01:57:12] Determined cmpress version is 001001 from '# INFERNAL 1.1.5 (Sep 2023)'
+[01:57:12] Looking for 'cmscan' - found /home/akabetso/miniconda3/envs/myenv/bin/cmscan
+[01:57:12] Determined cmscan version is 001001 from '# INFERNAL 1.1.5 (Sep 2023)'
+[01:57:12] Looking for 'egrep' - found /usr/bin/egrep
+[01:57:12] Looking for 'find' - found /usr/bin/find
+[01:57:12] Looking for 'grep' - found /usr/bin/grep
+[01:57:12] Looking for 'hmmpress' - found /home/akabetso/miniconda3/envs/myenv/bin/hmmpress
+[01:57:12] Determined hmmpress version is 003004 from '# HMMER 3.4 (Aug 2023); http://hmmer.org/'
+[01:57:12] Looking for 'hmmscan' - found /home/akabetso/miniconda3/envs/myenv/bin/hmmscan
+[01:57:12] Determined hmmscan version is 003004 from '# HMMER 3.4 (Aug 2023); http://hmmer.org/'
+[01:57:12] Looking for 'java' - found /home/akabetso/miniconda3/envs/myenv/bin/java
+[01:57:12] Looking for 'makeblastdb' - found /home/akabetso/miniconda3/envs/myenv/bin/makeblastdb
+[01:57:12] Determined makeblastdb version is 002016 from 'makeblastdb: 2.16.0+'
+[01:57:12] Looking for 'minced' - found /home/akabetso/miniconda3/envs/myenv/bin/minced
+[01:57:12] Determined minced version is 004002 from 'minced 0.4.2'
+[01:57:12] Looking for 'parallel' - found /home/akabetso/miniconda3/envs/myenv/bin/parallel
+[01:57:12] Determined parallel version is 20240722 from 'GNU parallel 20240722'
+[01:57:12] Looking for 'prodigal' - found /home/akabetso/miniconda3/envs/myenv/bin/prodigal
+[01:57:12] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[01:57:12] Looking for 'prokka-genbank_to_fasta_db' - found /home/akabetso/miniconda3/envs/myenv/bin/prokka-genbank_to_fasta_db
+[01:57:12] Looking for 'sed' - found /usr/bin/sed
+[01:57:12] Looking for 'tbl2asn' - found /home/akabetso/miniconda3/envs/myenv/bin/tbl2asn
+[01:57:12] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[01:57:12] Using genetic code table 11.
+[01:57:12] Loading and checking input file: ../data/reference/SPP1.fa
+[01:57:12] Wrote 1 contigs totalling 44010 bp.
+[01:57:12] Predicting tRNAs and tmRNAs
+[01:57:12] Running: aragorn -l -gc11  -w \.\.\/results\/phage_annotation\/SPP1\.fna
+[01:57:12] Found 0 tRNAs
+[01:57:12] Predicting Ribosomal RNAs
+[01:57:12] Running Barrnap with 4 threads
+[01:57:12] Found 0 rRNAs
+[01:57:12] Skipping ncRNA search, enable with --rfam if desired.
+[01:57:12] Total of 0 tRNA + rRNA features
+[01:57:12] Searching for CRISPR repeats
+[01:57:13] Found 0 CRISPRs
+[01:57:13] Predicting coding sequences
+[01:57:13] Contigs total 44010 bp, so using meta mode
+[01:57:13] Running: prodigal -i \.\.\/results\/phage_annotation\/SPP1\.fna -c -m -g 11 -p meta -f sco -q
+[01:57:13] Found 79 CDS
+[01:57:13] Connecting features back to sequences
+[01:57:13] Not using genus-specific database. Try --usegenus to enable it.
+[01:57:13] Annotating CDS, please be patient.
+[01:57:13] Will use 4 CPUs for similarity searching.
+[01:57:13] There are still 79 unannotated CDS left (started with 79)
+[01:57:13] Will use blast to search against /home/akabetso/miniconda3/envs/myenv/db/kingdom/Bacteria/IS with 4 CPUs
+[01:57:13] Running: cat \.\.\/results\/phage_annotation\/SPP1\.IS\.tmp\.738698\.faa | parallel --gnu --plain -j 4 --block 1743 --recstart '>' --pipe blastp -query - -db /home/akabetso/miniconda3/envs/myenv/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \.\.\/results\/phage_annotation\/SPP1\.IS\.tmp\.738698\.blast 2> /dev/null
+[01:57:14] Deleting unwanted file: ../results/phage_annotation/SPP1.IS.tmp.738698.faa
+[01:57:14] Deleting unwanted file: ../results/phage_annotation/SPP1.IS.tmp.738698.blast
+[01:57:14] There are still 79 unannotated CDS left (started with 79)
+[01:57:14] Will use blast to search against /home/akabetso/miniconda3/envs/myenv/db/kingdom/Bacteria/AMR with 4 CPUs
+[01:57:14] Running: cat \.\.\/results\/phage_annotation\/SPP1\.AMR\.tmp\.738698\.faa | parallel --gnu --plain -j 4 --block 1743 --recstart '>' --pipe blastp -query - -db /home/akabetso/miniconda3/envs/myenv/db/kingdom/Bacteria/AMR -evalue 1e-300 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \.\.\/results\/phage_annotation\/SPP1\.AMR\.tmp\.738698\.blast 2> /dev/null
+[01:57:15] Deleting unwanted file: ../results/phage_annotation/SPP1.AMR.tmp.738698.faa
+[01:57:15] Deleting unwanted file: ../results/phage_annotation/SPP1.AMR.tmp.738698.blast
+[01:57:15] There are still 79 unannotated CDS left (started with 79)
+[01:57:15] Will use blast to search against /home/akabetso/miniconda3/envs/myenv/db/kingdom/Bacteria/sprot with 4 CPUs
+[01:57:15] Running: cat \.\.\/results\/phage_annotation\/SPP1\.sprot\.tmp\.738698\.faa | parallel --gnu --plain -j 4 --block 1743 --recstart '>' --pipe blastp -query - -db /home/akabetso/miniconda3/envs/myenv/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \.\.\/results\/phage_annotation\/SPP1\.sprot\.tmp\.738698\.blast 2> /dev/null
+[01:57:18] Modify product: UPF0714 protein YndL => hypothetical protein
+[01:57:19] Cleaned 1 /product names
+[01:57:19] Deleting unwanted file: ../results/phage_annotation/SPP1.sprot.tmp.738698.faa
+[01:57:19] Deleting unwanted file: ../results/phage_annotation/SPP1.sprot.tmp.738698.blast
+[01:57:19] There are still 75 unannotated CDS left (started with 79)
+[01:57:19] Will use hmmer3 to search against /home/akabetso/miniconda3/envs/myenv/db/hmm/HAMAP.hmm with 4 CPUs
+[01:57:19] Running: cat \.\.\/results\/phage_annotation\/SPP1\.HAMAP\.hmm\.tmp\.738698\.faa | parallel --gnu --plain -j 4 --block 1602 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /home/akabetso/miniconda3/envs/myenv/db/hmm/HAMAP.hmm /dev/stdin > \.\.\/results\/phage_annotation\/SPP1\.HAMAP\.hmm\.tmp\.738698\.hmmer3 2> /dev/null
+[01:57:21] Deleting unwanted file: ../results/phage_annotation/SPP1.HAMAP.hmm.tmp.738698.faa
+[01:57:21] Deleting unwanted file: ../results/phage_annotation/SPP1.HAMAP.hmm.tmp.738698.hmmer3
+[01:57:21] Labelling remaining 75 proteins as 'hypothetical protein'
+[01:57:21] Found 2 unique /gene codes.
+[01:57:21] Fixed 0 colliding /gene names.
+[01:57:21] Adding /locus_tag identifiers
+[01:57:21] Assigned 79 locus_tags to CDS and RNA features.
+[01:57:21] Writing outputs to ../results/phage_annotation/
+[01:57:21] Generating annotation statistics file
+[01:57:21] Generating Genbank and Sequin files
+[01:57:21] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z \.\.\/results\/phage_annotation\/SPP1\.err -i \.\.\/results\/phage_annotation\/SPP1\.fsa 2> /dev/null
+[01:57:21] Deleting unwanted file: ../results/phage_annotation/errorsummary.val
+[01:57:21] Deleting unwanted file: ../results/phage_annotation/SPP1.dr
+[01:57:21] Deleting unwanted file: ../results/phage_annotation/SPP1.fixedproducts
+[01:57:21] Deleting unwanted file: ../results/phage_annotation/SPP1.ecn
+[01:57:21] Deleting unwanted file: ../results/phage_annotation/SPP1.val
+[01:57:21] Repairing broken .GBK output that tbl2asn produces...
+[01:57:21] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < \.\.\/results\/phage_annotation\/SPP1\.gbf > \.\.\/results\/phage_annotation\/SPP1\.gbk
+[01:57:21] Deleting unwanted file: ../results/phage_annotation/SPP1.gbf
+[01:57:21] Output files:
+[01:57:21] ../results/phage_annotation/SPP1.err
+[01:57:21] ../results/phage_annotation/SPP1.tsv
+[01:57:21] ../results/phage_annotation/SPP1.faa
+[01:57:21] ../results/phage_annotation/SPP1.fsa
+[01:57:21] ../results/phage_annotation/SPP1.txt
+[01:57:21] ../results/phage_annotation/SPP1.gbk
+[01:57:21] ../results/phage_annotation/SPP1.tbl
+[01:57:21] ../results/phage_annotation/SPP1.log
+[01:57:21] ../results/phage_annotation/SPP1.gff
+[01:57:21] ../results/phage_annotation/SPP1.sqn
+[01:57:21] ../results/phage_annotation/SPP1.ffn
+[01:57:21] ../results/phage_annotation/SPP1.fna
+[01:57:21] Annotation finished successfully.
+[01:57:21] Walltime used: 0.15 minutes
+[01:57:21] If you use this result please cite the Prokka paper:
+[01:57:21] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[01:57:21] Type 'prokka --citation' for more details.
+[01:57:21] Share and enjoy!

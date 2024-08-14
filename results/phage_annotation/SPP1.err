@@ -1,0 +1,457 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:79 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:CDS: 79 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:79 features have inconsistent gene locations.
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:2 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:80 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::79 proteins have invalid IDs.
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_1 (length 137)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_2 (length 372)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_3 (length 71)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_4 (length 85)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_5 (length 89)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_6 (length 503)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_7 (length 308)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_8 (length 382)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_9 (length 112)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_10 (length 55)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_11 (length 214)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_12 (length 64)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_13 (length 324)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_14 (length 58)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_15 (length 102)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_16 (length 109)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_17 (length 141)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_18 (length 134)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_19 (length 177)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_20 (length 173)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_21 (length 102)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_22 (length 1032)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_23 (length 253)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_24 (length 1108)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_25 (length 146)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_26 (length 54)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_27 (length 51)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_28 (length 76)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_29 (length 92)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_30 (length 271)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_31 (length 82)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_32 (length 47)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_33 (length 184)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_34 (length 95)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_35 (length 100)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_36 (length 105)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_37 (length 54)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_38 (length 56)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_39 (length 94)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_40 (length 120)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_41 (length 105)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_42 (length 836)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_43 (length 56)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_44 (length 589)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_45 (length 72)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_46 (length 52)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_47 (length 311)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_48 (length 57)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_49 (length 84)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_50 (length 96)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_51 (length 287)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_52 (length 159)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_53 (length 163)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_54 (length 124)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_55 (length 197)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_56 (length 84)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_57 (length 57)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_58 (length 256)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_59 (length 126)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_60 (length 442)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_61 (length 166)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_62 (length 131)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_63 (length 56)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_64 (length 98)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_65 (length 117)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_66 (length 172)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_67 (length 62)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_68 (length 100)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_69 (length 103)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_70 (length 33)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_71 (length 119)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_72 (length 97)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_73 (length 57)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_74 (length 57)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_75 (length 60)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_76 (length 51)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_77 (length 51)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_78 (length 80)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_79 (length 68)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 79 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+../results/phage_annotation/SPP1:Bacteriophage_SPP1 (length 44010)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::79 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:9-422	HNOGEJBB_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:457-1575	HNOGEJBB_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:1566-1781	HNOGEJBB_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:1781-2038	HNOGEJBB_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:2063-2332	HNOGEJBB_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:2334-3845	HNOGEJBB_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	NAD(+)--arginine ADP-ribosyltransferase EFV	Bacteriophage_SPP1:3802-4728	HNOGEJBB_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:5064-6212	HNOGEJBB_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:6214-6552	HNOGEJBB_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:6580-6747	HNOGEJBB_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:6914-7558	HNOGEJBB_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:7573-7767	HNOGEJBB_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:7800-8774	HNOGEJBB_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:8825-9001	HNOGEJBB_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:9012-9320	HNOGEJBB_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:9322-9651	HNOGEJBB_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:9641-10066	HNOGEJBB_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:10063-10467	HNOGEJBB_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:10481-11014	HNOGEJBB_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:11360-11881	HNOGEJBB_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:11944-12252	HNOGEJBB_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:12264-15362	HNOGEJBB_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:15359-16120	HNOGEJBB_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:16134-19460	HNOGEJBB_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:19473-19913	HNOGEJBB_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:19929-20093	HNOGEJBB_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:20086-20241	HNOGEJBB_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:20234-20464	HNOGEJBB_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:20544-20822	HNOGEJBB_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:20842-21657	HNOGEJBB_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:21659-21907	HNOGEJBB_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:22006-22149	HNOGEJBB_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:22274-22828	HNOGEJBB_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:22831-23118	HNOGEJBB_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:23066-23368	HNOGEJBB_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:23355-23672	HNOGEJBB_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:23672-23836	HNOGEJBB_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:23857-24027	HNOGEJBB_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:24207-24491	HNOGEJBB_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:24587-24949	HNOGEJBB_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:24962-25279	HNOGEJBB_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:25276-27786	HNOGEJBB_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:28037-28207	HNOGEJBB_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:28224-29993	HNOGEJBB_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:30009-30227	HNOGEJBB_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:30362-30520	HNOGEJBB_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:30532-31467	HNOGEJBB_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:31464-31637	HNOGEJBB_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:31639-31893	HNOGEJBB_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:31895-32185	HNOGEJBB_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:32175-33038	HNOGEJBB_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	Single-stranded DNA-binding protein A	Bacteriophage_SPP1:33031-33510	HNOGEJBB_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:33535-34026	HNOGEJBB_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:34030-34404	HNOGEJBB_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:34397-34990	HNOGEJBB_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:34987-35241	HNOGEJBB_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:35398-35571	HNOGEJBB_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:35578-36348	HNOGEJBB_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:36345-36725	HNOGEJBB_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	Replicative DNA helicase	Bacteriophage_SPP1:36722-38050	HNOGEJBB_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:38067-38567	HNOGEJBB_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:38564-38959	HNOGEJBB_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:38962-39132	HNOGEJBB_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:39129-39425	HNOGEJBB_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:39429-39782	HNOGEJBB_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:39775-40293	HNOGEJBB_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:40296-40484	HNOGEJBB_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:40593-40895	HNOGEJBB_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:40895-41206	HNOGEJBB_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:41210-41311	HNOGEJBB_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:41301-41660	HNOGEJBB_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:41717-42010	HNOGEJBB_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:42071-42244	HNOGEJBB_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:42241-42414	HNOGEJBB_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:42430-42612	HNOGEJBB_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:42609-42764	HNOGEJBB_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:43021-43176	HNOGEJBB_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:43173-43415	HNOGEJBB_00078
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../results/phage_annotation/SPP1:CDS	hypothetical protein	Bacteriophage_SPP1:43399-43605	HNOGEJBB_00079
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::2 protein sequences are shorter than 50 aa.
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_32 (length 47)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_70 (length 33)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+../results/phage_annotation/SPP1:Bacteriophage_SPP1 (length 44010)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+../results/phage_annotation/SPP1:Bacteriophage_SPP1 (length 44010)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+../results/phage_annotation/SPP1:Bacteriophage_SPP1 (length 44010)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+../results/phage_annotation/SPP1:Bacteriophage_SPP1 (length 44010)
+
+DiscRep_ALL:MISSING_PROJECT::80 sequences do not include project.
+../results/phage_annotation/SPP1:Bacteriophage_SPP1 (length 44010)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_1 (length 137)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_2 (length 372)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_3 (length 71)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_4 (length 85)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_5 (length 89)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_6 (length 503)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_7 (length 308)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_8 (length 382)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_9 (length 112)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_10 (length 55)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_11 (length 214)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_12 (length 64)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_13 (length 324)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_14 (length 58)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_15 (length 102)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_16 (length 109)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_17 (length 141)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_18 (length 134)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_19 (length 177)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_20 (length 173)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_21 (length 102)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_22 (length 1032)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_23 (length 253)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_24 (length 1108)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_25 (length 146)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_26 (length 54)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_27 (length 51)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_28 (length 76)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_29 (length 92)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_30 (length 271)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_31 (length 82)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_32 (length 47)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_33 (length 184)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_34 (length 95)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_35 (length 100)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_36 (length 105)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_37 (length 54)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_38 (length 56)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_39 (length 94)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_40 (length 120)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_41 (length 105)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_42 (length 836)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_43 (length 56)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_44 (length 589)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_45 (length 72)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_46 (length 52)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_47 (length 311)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_48 (length 57)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_49 (length 84)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_50 (length 96)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_51 (length 287)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_52 (length 159)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_53 (length 163)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_54 (length 124)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_55 (length 197)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_56 (length 84)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_57 (length 57)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_58 (length 256)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_59 (length 126)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_60 (length 442)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_61 (length 166)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_62 (length 131)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_63 (length 56)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_64 (length 98)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_65 (length 117)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_66 (length 172)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_67 (length 62)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_68 (length 100)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_69 (length 103)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_70 (length 33)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_71 (length 119)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_72 (length 97)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_73 (length 57)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_74 (length 57)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_75 (length 60)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_76 (length 51)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_77 (length 51)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_78 (length 80)
+../results/phage_annotation/SPP1:Bacteriophage_SPP1_79 (length 68)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+../results/phage_annotation/SPP1:Bacteriophage_SPP1 (length 44010)
+

@@ -1,0 +1,66 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.6
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 2 BAM files                                      ||
+||                                                                            ||
+||                           T0_sorted.bam                                    ||
+||                           T10_sorted.bam                                   ||
+||                                                                            ||
+||             Output file : tmp_counts.txt                                   ||
+||                 Summary : tmp_counts.txt.summary                           ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : YB886.gff (GTF)                                  ||
+||      Dir for temp files : ../results/featureCounts                         ||
+||                                                                            ||
+||                 Threads : 1                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : counted                                          ||
+||   Min overlapping bases : 1                                                ||
+||        Duplicated Reads : ignored                                          ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file YB886.gff ...                                         ||
+||    Features : 3994                                                         ||
+||    Meta-features : 3994                                                    ||
+||    Chromosomes/contigs : 1                                                 ||
+||                                                                            ||
+|| Load FASTA contigs from YB886.fa...                                        ||
+||    16 contigs were loaded                                                  ||
+||                                                                            ||
+|| Process BAM file T0_sorted.bam...                                          ||
+||    Strand specific : stranded                                              ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 1687006                                              ||
+||    Successfully assigned alignments : 1503130 (89.1%)                      ||
+||    Running time : 0.03 minutes                                             ||
+||                                                                            ||
+|| Process BAM file T10_sorted.bam...                                         ||
+||    Strand specific : stranded                                              ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 1144206                                              ||
+||    Successfully assigned alignments : 974364 (85.2%)                       ||
+||    Running time : 0.02 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "../results/featureCount  ||
+|| s/tmp_counts.txt.summary"                                                  ||
+||                                                                            ||
+\\============================================================================//
+
