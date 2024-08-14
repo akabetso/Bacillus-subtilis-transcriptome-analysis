@@ -88,4 +88,11 @@ gene-wise dispersion estimates
 mean-dispersion relationship
 final dispersion estimates
 fitting model and testing
-Results saved to ../results/featureCounts/dseq_results.txt 
+null device 
+          1 
+null device 
+          1 
+using ntop=500 top features by variance
+null device 
+          1 
+Results and plots saved successfully to ../results/featureCounts 
