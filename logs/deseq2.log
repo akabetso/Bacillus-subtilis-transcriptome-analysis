@@ -74,20 +74,26 @@ The following objects are masked from ‘package:matrixStats’:
     anyMissing, rowMedians
 
 converting counts to integer mode
-  the design formula contains one or more numeric variables with integer values,
-  specifying a model with increasing fold change for higher values.
-  did you mean for this to be a factor? if so, first convert
-  this variable to a factor using the factor() function
-  the design formula contains one or more numeric variables that have mean or
-  standard deviation larger than 5 (an arbitrary threshold to trigger this message).
-  Including numeric variables with large mean can induce collinearity with the intercept.
-  Users should center and scale numeric variables in the design to improve GLM convergence.
 estimating size factors
 estimating dispersions
 gene-wise dispersion estimates
 mean-dispersion relationship
 final dispersion estimates
 fitting model and testing
+[1] "Intercept"         "Time_8_vs_0"       "Time_13_vs_0"     
+[4] "Time_25_vs_0"      "Replicates_2_vs_1" "Replicates_3_vs_1"
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
 null device 
           1 
 null device 
@@ -95,4 +101,9 @@ null device
 using ntop=500 top features by variance
 null device 
           1 
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
 Results and plots saved successfully to ../results/featureCounts 
