@@ -47,10 +47,10 @@ dev.off()
 
 #Histogram of pvalues and adjusted pvalues. useful to show if there are truely #signifantly expressed genes.
 pdf(file.path(output_plot, "histogram_pvalue.pdf"))
-hist(res$pvalue, breaks=20, col="grey")
+hist(res$pvalue, breaks = 20, col = "grey", main = "Histogram of p-values", xlab = "p-value")
 dev.off()
 pdf(file.path(output_plot, "histogram_adj_pvalue.pdf"))
-hist(res$padj, breaks=20, col="grey")
+hist(res$padj, breaks = 20, col = "grey", main = "Histogram of Adjusted p-values", xlab = "Adjusted p-value")
 dev.off()
 
 
