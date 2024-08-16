@@ -2,6 +2,7 @@
 
 library(DESeq2)
 library(ggplot2)
+library(gridExtra) 
 
 # Directories
 col_data <- "../data/reference/metadata.csv"
@@ -54,34 +55,33 @@ hist(res$padj, breaks = 20, col = "grey", main = "Histogram of Adjusted p-values
 dev.off()
 
 
-# MA plot for Time 25 vs Time 0
+# Open a PDF device and output the plots
+pdf(file.path(output_plot, "MA_plots_combined.pdf"), width = 14, height = 8)
+
+# Set up a 2x3 grid layout for the plots
+par(mfrow = c(2, 3), mar = c(4, 4, 4, 2)) 
+
+# Plot 1: Time 25 vs Time 0
 res_time_25_vs_0 <- results(dds, name = "Time_25_vs_0")
-pdf(file.path(output_plot, "MA_plot_time_25_vs_0.pdf"))
-plotMA(res_time_25_vs_0, main="MA Plot: Time 25 vs Time 0")
-dev.off()
+plotMA(res_time_25_vs_0, main = "Time 25 vs Time 0", ylim = c(-5, 5))
 
-# Similarly, we can generate plots for other time contrasts
+# Plot 2: Time 13 vs Time 0
 res_time_13_vs_0 <- results(dds, name = "Time_13_vs_0")
-pdf(file.path(output_plot, "MA_plot_time_13_vs_0.pdf"))
-plotMA(res_time_13_vs_0, main="MA Plot: Time 13 vs Time 0")
-dev.off()
+plotMA(res_time_13_vs_0, main = "Time 13 vs Time 0", ylim = c(-5, 5))
 
+# Plot 3: Time 8 vs Time 0
 res_time_8_vs_0 <- results(dds, name = "Time_8_vs_0")
-pdf(file.path(output_plot, "MA_plot_time_8_vs_0.pdf"))
-plotMA(res_time_8_vs_0, main="MA Plot: Time 8 vs Time 0")
-dev.off()
+plotMA(res_time_8_vs_0, main = "Time 8 vs Time 0", ylim = c(-5, 5))
 
-# MA plot for Replicate 3 vs Replicate 1
+# Plot 4: Replicate 3 vs Replicate 1
 res_replicate_3_vs_1 <- results(dds, name = "Replicates_3_vs_1")
-pdf(file.path(output_plot, "MA_plot_replicate_3_vs_1.pdf"))
-plotMA(res_replicate_3_vs_1, main="MA Plot: Replicate 3 vs Replicate 1")
+plotMA(res_replicate_3_vs_1, main = "Replicate 3 vs Replicate 1", ylim = c(-5, 5))
+
+# Plot 5: Replicate 2 vs Replicate 1
+res_replicate_2_vs_1 <- results(dds, name = "Replicates_2_vs_1")
+plotMA(res_replicate_2_vs_1, main = "Replicate 2 vs Replicate 1", ylim = c(-5, 5))
 dev.off()
 
-# MA plot for Replicate 2 vs Replicate 1
-res_replicate_2_vs_1 <- results(dds, name = "Replicates_2_vs_1")
-pdf(file.path(output_plot, "MA_plot_replicate_2_vs_1.pdf"))
-plotMA(res_replicate_2_vs_1, main="MA Plot: Replicate 2 vs Replicate 1")
-dev.off()
 
 
 # Perform variance stabilizing transformation (VST) for PCA
@@ -105,16 +105,13 @@ dev.off()
 
 
 
-
-res_replicates_2_vs_1 <- results(dds, name = "Replicates_2_vs_1")
-res_replicates_3_vs_1 <- results(dds, name = "Replicates_3_vs_1")
-
+ 
 # Function to create a volcano plot with upregulation, downregulation, and other categories
 create_volcano_plot <- function(res, title) {
   volcano_data <- as.data.frame(res)
   
   # Define significance thresholds
-  log2fc_threshold <- 1  # Adjust this threshold as needed
+  log2fc_threshold <- 1 
   pval_threshold <- 0.05
   
   # Categorize genes as upregulated, downregulated, or other
@@ -123,26 +120,29 @@ create_volcano_plot <- function(res, title) {
   volcano_data$category[volcano_data$log2FoldChange <= -log2fc_threshold & volcano_data$pvalue < pval_threshold] <- "Downregulated"
   
   # Create the plot
-  ggplot(volcano_data, aes(x = log2FoldChange, y = -log10(pvalue), color = category)) +
+  p <- ggplot(volcano_data, aes(x = log2FoldChange, y = -log10(pvalue), color = category)) +
     geom_point() +
     theme_minimal() +
     labs(title = title, x = "Log2 Fold Change", y = "-Log10 p-value") +
     scale_color_manual(values = c("Upregulated" = "red", "Downregulated" = "blue", "Not Significant" = "gray"))
+  
+  return(p)
 }
 
-# Generate and save volcano plots
+# Generate volcano plots
 volcano_time_8_vs_0 <- create_volcano_plot(res_time_8_vs_0, "Volcano Plot: Time 8 vs 0")
 volcano_time_13_vs_0 <- create_volcano_plot(res_time_13_vs_0, "Volcano Plot: Time 13 vs 0")
 volcano_time_25_vs_0 <- create_volcano_plot(res_time_25_vs_0, "Volcano Plot: Time 25 vs 0")
-volcano_replicates_2_vs_1 <- create_volcano_plot(res_replicates_2_vs_1, "Volcano Plot: Replicates 2 vs 1")
-volcano_replicates_3_vs_1 <- create_volcano_plot(res_replicates_3_vs_1, "Volcano Plot: Replicates 3 vs 1")
+volcano_replicates_2_vs_1 <- create_volcano_plot(res_replicate_2_vs_1, "Volcano Plot: Replicates 2 vs 1")
+volcano_replicates_3_vs_1 <- create_volcano_plot(res_replicate_3_vs_1, "Volcano Plot: Replicates 3 vs 1")
 
-# Save plots
-ggsave(file.path(output_plot, "volcano_time_8_vs_0.pdf"), volcano_time_8_vs_0)
-ggsave(file.path(output_plot, "volcano_time_13_vs_0.pdf"), volcano_time_13_vs_0)
-ggsave(file.path(output_plot, "volcano_time_25_vs_0.pdf"), volcano_time_25_vs_0)
-ggsave(file.path(output_plot, "volcano_replicates_2_vs_1.pdf"), volcano_replicates_2_vs_1)
-ggsave(file.path(output_plot, "volcano_replicates_3_vs_1.pdf"), volcano_replicates_3_vs_1)
+# Combine the volcano plots into one page with a 2x3 grid layout
+pdf(file.path(output_plot, "volcano_plots_combined.pdf"), width = 14, height = 8)
+
+grid.arrange(volcano_time_25_vs_0, volcano_time_13_vs_0, volcano_time_8_vs_0,
+             volcano_replicates_3_vs_1, volcano_replicates_2_vs_1,
+             ncol = 3)
+dev.off()
 
 cat("Results and plots saved successfully to", output_plot, "\n")
 
